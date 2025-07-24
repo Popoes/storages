@@ -1,0 +1,7 @@
+
+检查并安装解压工具：
+sudo apt update && sudo apt install p7zip-full
+
+
+后台解压文件，可以关闭终端：
+nohup 7z x storage.zip.001 &
